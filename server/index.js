@@ -1,9 +1,10 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3001
 const db = require('./db')
 const routes = require('./routes')
+const cors = require('cors')
 const helmet = require('helmet')
 
 app.use(bodyParser.urlencoded({
@@ -12,6 +13,8 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 app.use(helmet())
+
+app.use(cors())
 
 app.use(routes)
 
