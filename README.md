@@ -10,40 +10,40 @@ All HTTP methods are supported.
 Get an array of all items
 ```
 GET
-  /product 
-  /user 
-  /category 
-  /order
+  /api/product 
+  /api/user 
+  /api/category 
+  /api/order
  ```
 Create an instance in the database
 ```
 POST	
-  /product 
-  /user 
-  /category 
-  /order
+  /api/product 
+  /api/user 
+  /api/category 
+  /api/order
 ```
 Get a specific instance in the database
 ```
 GET 
-  /product/:id 
-  /user/:id 
-  /category/:id 
-  /order/:id
+  /api/product/:id 
+  /api/user/:id 
+  /api/category/:id 
+  /api/order/:id
 ```
 Update a specific instance in the database
 ```
 PUT	
-  /product/:id 
-  /user/:id 
-  /category/:id 
-  /order/:id
+  /api/product/:id 
+  /api/user/:id 
+  /api/category/:id 
+  /api/order/:id
 ```
 Delete a specific instance in the database
 ```
 DELETE	
-  /product/:id 
-  /user/:id 
-  /category/:id 
-  /order/:id
+  /api/product/:id 
+  /api/user/:id 
+  /api/category/:id 
+  /api/order/:id
 ```
