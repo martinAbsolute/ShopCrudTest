@@ -2,8 +2,13 @@
 Basic CRUD functions for a Shop-type application, Node w/ Express + MongoDB via Mongoose
 
 To start:
+```
 npm run watch
-
+```
+Server would be available on:
+```
+http://localhost:3001
+```
 Routes
 All HTTP methods are supported.
 
